@@ -30,6 +30,7 @@ function App() {
 
   return (
     <main className={styles.characterEditor}>
+      <PerspectiveBar />
       <MaxWidthWrapper className={styles.maxWidthWrapper}>
         <header className={styles.header}>
           <h1 className={styles.title}>Create your Character</h1>
@@ -90,6 +91,10 @@ function App() {
       </div>
     </main>
   );
+}
+
+function PerspectiveBar() {
+  return <div className={styles.perspectiveBar}/>
 }
 
 export default App;

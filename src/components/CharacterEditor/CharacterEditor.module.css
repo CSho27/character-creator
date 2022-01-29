@@ -24,7 +24,33 @@
 }
 
 .characterWrapper {
+  width: 30%;
+  position: fixed;
+  top: 0px;
+  right: 5%;
+  bottom: 0px;
+  margin: auto;
+  min-height: 500px;
+  max-height: 85%;
+  max-width: 35%;
 }
 
 .controlColumn {
+  width: 50%
 }
+
+.header {
+  width: 65%;
+}
+
+.perspectiveBar {
+  position: fixed;
+  background-color: hsl(195deg, 20%, 86%);
+  height: 40%;
+  width: 100%;
+  bottom: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+
